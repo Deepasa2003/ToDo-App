@@ -3,6 +3,10 @@ import Header from "./components/Header";
 import ToDoList from "./components/ToDoList";
 import "./App.css";
 
+// Main To-Do List Application Component
+placeholder="Add a new task"
+
+
 function App() {
   const [todos, setTodos] = useState([]);
   const [task, setTask] = useState("");
