@@ -4,7 +4,7 @@ import ToDoList from "./components/ToDoList";
 import "./App.css";
 
 // Main To-Do List Application Component
-placeholder="Add a new task"
+ const placeholder="Add a new task"
 
 
 function App() {
@@ -65,7 +65,7 @@ function App() {
       />
       <button onClick={addTodo}>Add</button>
 
-      // ToDo List 
+      
       <ToDoList
         todos={todos}
         onDelete={deleteTodo}
